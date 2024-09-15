@@ -12,7 +12,7 @@ function Header () {
                 <div className="al-center d-flex jc-space-between">
                      <Link to="/"><img src={Logo} /></Link>
                      <div classeName="mobile-menu">
-                        <Button buttonStyle="secindary">
+                        <Button buttonStyle="secondary">
                             Menu
                         </Button>
                      </div>

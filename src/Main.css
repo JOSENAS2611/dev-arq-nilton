@@ -38,7 +38,9 @@ a {
 }
 
 .grey-1-color {
-    color: #4d5053
+    color: #4d5053;
+    
+    
 }
 /* TYPOGRAPHY*/
 h1, h2, h3, h4, h5 h6 {
@@ -58,7 +60,7 @@ p {
 }
 
 /* GRID*/
-.conteiner {
+.container {
     margin: 0 auto;
     width: 100%;
     max-width: 1140px;
@@ -74,7 +76,7 @@ p {
 
 .d-flex {
     display: flex;
-    margin-left: 30px;
+    
 }
 .fd-colum {
     flex-direction: column;
@@ -98,5 +100,6 @@ p {
     }
     .mobile-fd-column {
         flex-direction: column;
+        margin-top: 10px;
     }
 }

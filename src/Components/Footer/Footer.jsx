@@ -16,8 +16,8 @@ function Footer () {
                 <div className="d-flex jc-space-between">
                     <div className="footer-logo-col">
                         <img src={Logo} className="footer-logo" />
-                        <p className="grey-1-color">A escola que prepara você para as <br/>profissões em alta no mercado de<br/> trabalho.</p>
-                        <div className="d-flex social-links">
+                        <p className="grey-1-color">A escola que prepara você para as profissões em alta no mercado de trabalho.</p>
+                                           <div className="d-flex social-links">
                        <a href="https://google.com" target="_blank">
                            <img src={FacebookIcon} alt="img" />
                        </a>
@@ -31,19 +31,19 @@ function Footer () {
                            <img src={LinkedinIcon} alt="img" />
                        </a>
                        </div>
-                    
                     </div>
-                    <div className="d-flex mobilefd-column">
+                    
+                    <div className="d-flex mobile-fd-column ">
                          <div className="footer-col">
                               <h3>Pages</h3>
                               <ul>
-                                  <li><Link to="/">Home</Link></li>
+                                  <li><Link to="/Home">Home</Link></li>
                                   <li><Link to="/about">About</Link></li>
                                   <li><Link to="/projects">Projects</Link></li>
                                   <li><Link to="/contact">Contact</Link></li>
                               </ul>
                          </div>
-                         <div className="footer-col">
+                         <div className="footer-call">
                               <h3>Contact</h3>
                               <p className="grey-1-color">R. Justino Cobra, 61 – Vila Ema | São José dos Campos – SP | CEP 12243-030 </p>
                               <p className="grey-1-color">suporte@escoladnc.com.br </p>

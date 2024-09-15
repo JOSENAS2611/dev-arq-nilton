@@ -1,10 +1,11 @@
+import React from 'react';
 import './Banner.css'
 
 function Banner(props) {
     return(
-        <div className="banner d-flex al-end" style={{ backgroundImage:`url(/${props.image})` }}>
+        <div className="Banner d-flex al-end" style={{ backgroundImage:`url(/${props.image})`}}>
               <div className="container">
-                   <div className="title-painel d-flex al-center jc-center">
+                   <div className="title-painel displayFlex alignCenter">
                         <h1>{props.title}</h1>
                    </div>
               </div>

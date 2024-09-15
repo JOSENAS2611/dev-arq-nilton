@@ -1,24 +1,21 @@
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './Hero.css'
 import Button from '../Button/Button'
 
 function Hero() {
     return(
-        <div className="hero d-flex al-center">
+        <div className="hero d-flex alignCenter">
               <div className="hero-text">
                    <h1> Let Your Home Be Unique</h1>
                    <P>There are many variations of the passages of lorem Ipsum fromavailable, majority.</P>
-                   <Link>
+                   <Link >
                        <Button buttonStyle="secondary" arrow>
-                         Get Started
-                       </Button>   
+                        Get Started
+                       </Button>
                    </Link>
                    
               </div>
         </div>
     )
 }
-
-
-
 export default Hero

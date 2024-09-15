@@ -1,16 +1,22 @@
-.banner {
-    background-position: center;
+.Banner {
     background-size: cover;
     height: 356px;
-    width: 100%;
-    background-color: #ccc; /* Fallback color */
+    width: 1920px;
+    gap: 0px;
+    background-color: #CCC;
+    top: 139px;
+    opacity: 0px;
+       
     }
     
-    .titlePanel {
+    
+.title-painel {
     background-color: white;
-    border-radius: 10px 10px 0 0;
+    border-radius: 37px 37px 0 0;
     font-size: 50px;
     height: 150px;
     margin: 0 auto;
-    max-width: 500px;
+    width: 400px;
+    text-align: center;
+    
     }
