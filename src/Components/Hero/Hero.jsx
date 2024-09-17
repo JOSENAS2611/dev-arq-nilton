@@ -4,15 +4,16 @@ import Button from '../Button/Button'
 
 function Hero() {
     return(
-        <div className="hero d-flex alignCenter">
+        <div className="hero d-flex al-center">
               <div className="hero-text">
                    <h1> Let Your Home Be Unique</h1>
-                   <P>There are many variations of the passages of lorem Ipsum fromavailable, majority.</P>
-                   <Link >
-                       <Button buttonStyle="secondary" arrow>
-                        Get Started
-                       </Button>
+                   <p>There are many variations of the passages of lorem Ipsum fromavailable, majority.</p>
+                   <Link to="/about">
+                             <Button buttonStyle="secondary" arrow>
+                             Get Started
+                             </Button>
                    </Link>
+
                    
               </div>
         </div>
