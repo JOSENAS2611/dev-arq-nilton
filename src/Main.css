@@ -15,19 +15,21 @@ a {
 }
 
 /* MAIN COLOR*/
-.primary-bacckground {
+.primary-background {
     background-color: #0C70F2;
 }
 
 .primary-color {
     color: #0C70f2;
 }
-.secondary-bacckground {
+.secondary-background {
     background-color: #1D1D1D;
 }
 
-.secondary-color {
-    color:  #1D1D1D;
+.secondary {
+    color:  white;
+    background-color: #1D1D1D;
+    
 }
 .tertiary-background {
     background-color: #f6f6f6;

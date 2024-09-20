@@ -1,8 +1,16 @@
+import AboutText from "../Components/AboutText/AboutText"
+import Banner from "../Components/Banner/Banner"
+import Header from "../Components/Header/Header"
+import Footer from "../Components/Footer/Footer"
 function About() {
     return(
         <>
-        <h1>About</h1>
-        <p>Subtitle About</p>
+            <Header />
+            <Banner title="About"  image="About.jpg" />
+            <div className="container">
+                <AboutText />
+            </div>
+            <Footer />
         </>
     )
 }

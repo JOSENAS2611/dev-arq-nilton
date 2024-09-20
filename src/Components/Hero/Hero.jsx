@@ -10,7 +10,7 @@ function Hero() {
                    <p>There are many variations of the passages of lorem Ipsum fromavailable, majority.</p>
                    <Link to="/about">
                              <Button buttonStyle="secondary" arrow>
-                             Get Started
+                                  Get Started
                              </Button>
                    </Link>
 
