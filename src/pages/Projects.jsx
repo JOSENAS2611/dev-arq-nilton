@@ -8,9 +8,9 @@ function Projects() {
         <>
             <Header />
             <Banner title="Projects"  image="Projects.jpg" />
-                    <div className="container">
-                    <ProjectsList />
-                    </div>
+            <div className="container">
+            <ProjectsList />
+            </div>
             <Footer />
         </>
     )

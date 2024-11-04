@@ -6,9 +6,9 @@ function Contact() {
     return(
         <>
             <Header />
-            <Banner title="Contact"  image="contact.jpg" />
+            <Banner title="Contact"  image="Contact.jpg" />
             <div className="container">
-                <ContactForm />
+            <ContactForm />
             </div>
             <Footer />
         </>
